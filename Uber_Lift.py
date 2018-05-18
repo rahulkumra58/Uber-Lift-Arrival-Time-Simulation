@@ -143,8 +143,8 @@ while True:
 
     except:
         print("Please select a valid car")
-
-  days = np.random.randint(7)
+x = sim(type_of_car)
+days = np.random.randint(7)
 trip_time = np.random.randint(1,25)
 
 
